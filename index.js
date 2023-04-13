@@ -11,5 +11,17 @@ const extraBuildTargets = {
             },
         },
     },
+    rhea: {
+        displayName: 'Fitbit Sense 2',
+        minSDKVersion: '7.1.0',
+        platform: ['20001.1.1+'],
+        resourceFilterTag: '336x336',
+        specs: {
+            screenSize: {
+                width: 336,
+                height: 336,
+            },
+        },
+    },
 };
 exports.default = extraBuildTargets;
